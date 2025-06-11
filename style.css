@@ -26,8 +26,6 @@ body {
     margin-top: 150px;
     margin-bottom: 100px; 
 }
-
-
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 20px;
@@ -156,15 +154,7 @@ nav .fa-bars {
     border: 1px solid rgb(47, 135, 180);
     border-radius: 20px;
 } 
-/* .hero-section div{
-    margin-top: 0;
-}
-.hero-section div{
-    padding-top: 100px;
-}
-.contact1{
-    padding-top: 0;
-} */
+
 /*----------------------ABOUT US--------------------*/
 /* MAIN HEADING */
 .sub-header {

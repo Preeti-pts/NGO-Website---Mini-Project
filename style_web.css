@@ -52,104 +52,6 @@ p{
     position: relative;
 }
 /* -------------------nav----------------- */
-/* nav img {
-    width: 180px;
-}
-
-nav{
-background-color:  transparent;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5% 4%;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.nav-links ul li::before{
-    content: '';
-    position: absolute;
-    transform: translate(-50% , -50%);
-    left: 50%;
-    top: 100%;
-    width: 0;
-    height: 2px;
-    background: #86afc2;
-    transition-duration: .5s;
-}
-
-.nav-links ul li:hover::before{
-    width: 100%;
-    transition: 0.5s;
-}
-nav .fa-xmark,.fa-bars {
-    display: none;
-}
-nav .fa-bars {
-    display: none;
-}
-
-@media(max-width: 700px){
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background: rgb(29, 84, 135);
-        height: 200vh;
-        width: 100px;
-        top: 0;
-        right: -200px;;
-        text-align: left;
-        z-index: 2;
-    }
-    nav .fa-xmark{
-        display: block;
-        color: rgb(2, 2, 16);
-        margin: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    nav .fa-bars{
-        display: block;
-        color: rgb(2, 2, 16);
-        margin: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-}
-.Donate-btn{
-    display: inline-block;
-    text-decoration: none;
-    color:rgb(9, 47, 67);
-    border: 1px solid rgb(245, 179, 197);
-    padding: 10px 30px;
-    font-size: 13px;
-    background: rgb(121, 223, 235);
-    position: relative;
-    cursor: pointer;
-    border: 1px solid rgb(47, 135, 180);
-    border-radius: 20px;
-} */
  nav img {
     width: 200px;
     display: flex;
@@ -953,6 +855,15 @@ body {
   font-size: 3rem;
   margin-bottom: 20px;
   font-weight: 700;
+}
+.hero-content h1::after {
+    content: '';
+    display: block;
+    margin: 5px auto; 
+    width: 80px;
+    height: 4px;
+    background: #008e91;
+    border-radius: 2px;
 }
 
 .hero-content p {
