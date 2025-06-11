@@ -36,5 +36,9 @@ This is a frontend-only project, ideal for demo or deployment with GitHub Pages 
 <br><br>
 <h4>## ✨ Want to contribute?</h4>
 Feel free to fork the repo and suggest changes to improve design, accessibility, or functionality.<br>
-It would be very helpful
+It would be very helpful.
+</p>
+<p>
+<h5>Thanks for checking out this project! 🌱<br>  
+We appreciate your time and support.</h5>
 </p>
