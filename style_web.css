@@ -9,7 +9,7 @@ html {
 }
 body {
  
-  padding-top: 80px; 
+  padding-top: 80px;
   overflow-x: hidden;
 }
 
@@ -52,7 +52,7 @@ p{
     position: relative;
 }
 /* -------------------nav----------------- */
- nav img {
+nav img {
     width: 200px;
     display: flex;
 }
